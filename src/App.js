@@ -4,7 +4,7 @@ import './App.css';
 //components
 import { AlexCard } from './components/alexCard';
 import { HeroGif } from './components/heroGif';
-import { ExampleNavBar } from './components/ExampleNavBar';
+// import { ExampleNavBar } from './components/ExampleNavBar';
 import { OldAboutMe } from './components/OldAboutMe'
 //about me component
 //blog component (want this feature to look like a num pad on desktop/ single image on screen)
@@ -29,11 +29,11 @@ function App() {
   return (
     
     <Router>
-      <ExampleNavBar></ExampleNavBar>
+      {/* <ExampleNavBar></ExampleNavBar> */}
       <Navbar></Navbar>
       <OldAboutMe/>
       <Routes>
-        <Route path='/' element={<Dogs/>} />
+        <Route path='/react-gh-pages' element={<Dogs/>} />
         <Route path='/cats' element={<Cats/>} /> 
         {/* <Route path='/sheeps' exact component={Sheeps}/> */}
         {/* <Route path='/goats' exact component={Goats}/> */}
