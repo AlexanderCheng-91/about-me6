@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-gh-pages/static/css/main.30ea52ad.css",
-    "main.js": "/react-gh-pages/static/js/main.3c2728d5.js",
+    "main.js": "/react-gh-pages/static/js/main.bc81e829.js",
     "static/js/787.f0fbe28d.chunk.js": "/react-gh-pages/static/js/787.f0fbe28d.chunk.js",
     "static/media/Michal Scott Hero Gif Placeholder.gif": "/react-gh-pages/static/media/Michal Scott Hero Gif Placeholder.acd6a5d0d409aaaa8016.gif",
     "static/media/Fatty.jpg": "/react-gh-pages/static/media/Fatty.ee26b948fb9a49729cdb.jpg",
@@ -16,11 +16,11 @@
     "index.html": "/react-gh-pages/index.html",
     "static/media/brandImage.svg": "/react-gh-pages/static/media/brandImage.32144ab6e2699cd4d64ff1243a10ec3d.svg",
     "main.30ea52ad.css.map": "/react-gh-pages/static/css/main.30ea52ad.css.map",
-    "main.3c2728d5.js.map": "/react-gh-pages/static/js/main.3c2728d5.js.map",
+    "main.bc81e829.js.map": "/react-gh-pages/static/js/main.bc81e829.js.map",
     "787.f0fbe28d.chunk.js.map": "/react-gh-pages/static/js/787.f0fbe28d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.30ea52ad.css",
-    "static/js/main.3c2728d5.js"
+    "static/js/main.bc81e829.js"
   ]
 }
