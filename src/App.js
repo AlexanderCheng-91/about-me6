@@ -23,6 +23,8 @@ import Cats from './pages/Cats';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import { Button } from 'reactstrap';
 
+// Have I not been deploying? oh shit! run: npm run deploy
+
 function App() {
   return (
     
