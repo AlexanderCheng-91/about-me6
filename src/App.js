@@ -3,7 +3,7 @@ import './App.css';
 
 //components
 // import { AlexCard } from './components/alexCard';
-// import { HeroGif } from './components/heroGif';
+import { HeroGif } from './components/heroGif';
 // import { ExampleNavBar } from './components/ExampleNavBar';
 // import { OldAboutMe } from './components/OldAboutMe'
 //about me component
@@ -27,7 +27,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <Dogs/>
+   <HeroGif/>
     // <Router>
     //   {/* <ExampleNavBar></ExampleNavBar> */}
     //   <Navbar></Navbar>
