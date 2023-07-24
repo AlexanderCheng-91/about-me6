@@ -4,7 +4,7 @@ import './App.css';
 //components
 import { AlexCard } from './components/alexCard';
 import { HeroGif } from './components/heroGif';
-// import { ExampleNavBar } from './components/ExampleNavBar';
+import { ExampleNavBar } from './components/ExampleNavBar';
 import { OldAboutMe } from './components/OldAboutMe'
 //about me component
 //blog component (want this feature to look like a num pad on desktop/ single image on screen)
@@ -13,7 +13,7 @@ import { OldAboutMe } from './components/OldAboutMe'
 
 //Router
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./components/NavbarComponent";
+// import Navbar from "./components/NavbarComponent";
 import Dogs from './pages/Dogs';
 import Cats from './pages/Cats';
 
@@ -28,7 +28,7 @@ function App() {
   return (
     <Router>
       {/* <ExampleNavBar></ExampleNavBar> */}
-      <Navbar></Navbar>
+      <ExampleNavBar/>
       <OldAboutMe/>
       <Routes>
         <Route path='/' element={<Dogs/>} />
