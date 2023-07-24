@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.30ea52ad.css",
-    "main.js": "/react-gh-pages/static/js/main.6e1ceddf.js",
-    "static/js/787.f0fbe28d.chunk.js": "/react-gh-pages/static/js/787.f0fbe28d.chunk.js",
-    "static/media/Michal Scott Hero Gif Placeholder.gif": "/react-gh-pages/static/media/Michal Scott Hero Gif Placeholder.acd6a5d0d409aaaa8016.gif",
-    "static/media/Fatty.jpg": "/react-gh-pages/static/media/Fatty.ee26b948fb9a49729cdb.jpg",
-    "static/media/Duke.jpg": "/react-gh-pages/static/media/Duke.62f7ef29496f1c88ac85.jpg",
-    "index.html": "/react-gh-pages/index.html",
-    "main.30ea52ad.css.map": "/react-gh-pages/static/css/main.30ea52ad.css.map",
-    "main.6e1ceddf.js.map": "/react-gh-pages/static/js/main.6e1ceddf.js.map",
-    "787.f0fbe28d.chunk.js.map": "/react-gh-pages/static/js/787.f0fbe28d.chunk.js.map"
+    "main.css": "/about-me6/static/css/main.30ea52ad.css",
+    "main.js": "/about-me6/static/js/main.7b42c556.js",
+    "static/js/787.f0fbe28d.chunk.js": "/about-me6/static/js/787.f0fbe28d.chunk.js",
+    "static/media/Michal Scott Hero Gif Placeholder.gif": "/about-me6/static/media/Michal Scott Hero Gif Placeholder.acd6a5d0d409aaaa8016.gif",
+    "static/media/Fatty.jpg": "/about-me6/static/media/Fatty.ee26b948fb9a49729cdb.jpg",
+    "static/media/Duke.jpg": "/about-me6/static/media/Duke.62f7ef29496f1c88ac85.jpg",
+    "index.html": "/about-me6/index.html",
+    "main.30ea52ad.css.map": "/about-me6/static/css/main.30ea52ad.css.map",
+    "main.7b42c556.js.map": "/about-me6/static/js/main.7b42c556.js.map",
+    "787.f0fbe28d.chunk.js.map": "/about-me6/static/js/787.f0fbe28d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.30ea52ad.css",
-    "static/js/main.6e1ceddf.js"
+    "static/js/main.7b42c556.js"
   ]
 }
