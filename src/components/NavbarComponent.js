@@ -20,12 +20,7 @@ const NavbarComponent= () =>{
       <li>
         <Link to="/cats">Cats</Link>
       </li>
-      <li>
-        <Link to="/sheeps">Sheeps</Link>
-      </li>
-      <li>
-        <Link to="/goats">Goats</Link>
-      </li>
+    
     </Navbar>
   </div>
   );

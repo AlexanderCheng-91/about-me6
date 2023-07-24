@@ -12,4 +12,3 @@ const Goats = () =>{
 }
 export default Goats;
 
-Goat.js

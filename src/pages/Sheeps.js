@@ -12,4 +12,3 @@ const Sheeps = () =>{
 }
 export default Sheeps;
 
-Sheep.js
