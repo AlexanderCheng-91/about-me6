@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/about-me6/static/css/main.30ea52ad.css",
-    "main.js": "/about-me6/static/js/main.8580ab75.js",
+    "main.js": "/about-me6/static/js/main.f4520ab3.js",
     "static/js/787.f0fbe28d.chunk.js": "/about-me6/static/js/787.f0fbe28d.chunk.js",
     "static/media/Michal Scott Hero Gif Placeholder.gif": "/about-me6/static/media/Michal Scott Hero Gif Placeholder.acd6a5d0d409aaaa8016.gif",
     "static/media/Fatty.jpg": "/about-me6/static/media/Fatty.ee26b948fb9a49729cdb.jpg",
@@ -14,13 +14,12 @@
     "static/media/responsive.svg": "/about-me6/static/media/responsive.b8ca5f48264f2e7312cf45589ca61eaf.svg",
     "static/media/fast.svg": "/about-me6/static/media/fast.9d4e9fc44b98afbc724e4a05902c97f1.svg",
     "index.html": "/about-me6/index.html",
-    "static/media/brandImage.svg": "/about-me6/static/media/brandImage.32144ab6e2699cd4d64ff1243a10ec3d.svg",
     "main.30ea52ad.css.map": "/about-me6/static/css/main.30ea52ad.css.map",
-    "main.8580ab75.js.map": "/about-me6/static/js/main.8580ab75.js.map",
+    "main.f4520ab3.js.map": "/about-me6/static/js/main.f4520ab3.js.map",
     "787.f0fbe28d.chunk.js.map": "/about-me6/static/js/787.f0fbe28d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.30ea52ad.css",
-    "static/js/main.8580ab75.js"
+    "static/js/main.f4520ab3.js"
   ]
 }
