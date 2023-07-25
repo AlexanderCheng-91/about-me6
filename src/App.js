@@ -1,61 +1,57 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 //components
-import { AlexCard } from './components/alexCard';
-import { HeroGif } from './components/heroGif';
-import { ExampleNavBar } from './components/ExampleNavBar';
-import { OldAboutMe } from './components/OldAboutMe'
+
+import { ExampleNavBar } from "./components/ExampleNavBar";
+import { OldAboutMe } from "./components/OldAboutMe";
+import { BlogGracie } from "./components/BlogGracie";
 //about me component
 //blog component (want this feature to look like a num pad on desktop/ single image on screen)
-//skills component 
+//skills component
 //email me component
 
 //Router
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+   BrowserRouter as Router,
+   Routes,
+   Switchcase,
+   Route,
+} from "react-router-dom";
 // import Navbar from "./components/NavbarComponent";
-import Dogs from './pages/Dogs';
-import Cats from './pages/Cats';
+import Dogs from "./pages/Dogs";
+import Cats from "./pages/Cats";
 
-
+import { Col, Container } from "reactstrap";
 //bootstrap
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 // import { Button } from 'reactstrap';
 
 // Have I not been deploying? oh shit! run: npm run deploy
 
 function App() {
-  return (
-    <Router>
-      {/* <ExampleNavBar></ExampleNavBar> */}
-      <ExampleNavBar/>
-      <OldAboutMe/>
-      <Routes>
-        <Route path='/' element={<Dogs/>} />
-        <Route path='/cats' element={<Cats/>} /> 
-       
-      </Routes> 
+   return (
       <div className="App">
-        <header className="App-header">
-          <HeroGif></HeroGif>
-          <AlexCard></AlexCard>
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload. 
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+         <header className="App-header"></header>
+         <Container fluid style={{ padding: 0 }}>
+            <Col style={{ padding: 0 }}>
+               <Switchcase>
+                  <Route exact path="/gracie">
+                     <BlogGracie></BlogGracie>
+                  </Route>
+               </Switchcase>
+               <Router>
+                  {/* <ExampleNavBar></ExampleNavBar> */}
+                  <ExampleNavBar />
+                  <OldAboutMe />
+                  <Routes>
+                     <Route path="/" element={<Dogs />} />
+                     <Route path="/cats" element={<Cats />} />
+                  </Routes>
+               </Router>
+            </Col>
+         </Container>
       </div>
-      
-    </Router>
-  );
+   );
 }
 
 export default App;
